@@ -165,7 +165,7 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white !default;
+$body-bg:                  $white !default;
 $body-color:                $gray-900 !default;
 
 
@@ -173,7 +173,7 @@ $body-color:                $gray-900 !default;
 //
 // Style anchor elements.
 
-$link-color:                              theme-color("primary") !default;
+$link-color:                              #fff; //theme-color("primary") !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
@@ -715,10 +715,10 @@ $nav-divider-margin-y:              $spacer / 2 !default;
 
 // Navbar
 
-$navbar-padding-y:                  30px;//$spacer / 2 !default;
+$navbar-padding-y:                  5px;//$spacer / 2 !default;
 $navbar-padding-x:                  $spacer !default;
 
-$navbar-nav-link-padding-x:         .5rem !default;
+$navbar-nav-link-padding-x:         25px;//.5rem !default;
 
 $navbar-brand-font-size:            $font-size-lg !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link

@@ -1,0 +1,31 @@
+$layout-bg : rgba(92,124,110,0.35);
+.layout-bg {
+    background: $layout-bg;
+    
+}
+.ft-wrap {
+    margin: 0 auto;
+    display: flex;
+    .ft-conntect {
+        margin: 15px 0 0 40px;
+        p {
+           margin-bottom: 5px;
+        }
+        @include media-breakpoint-down(lg) {
+            margin: 15px 0 0 0;
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .ft-iconsize {
+        font-size: 28px;
+        a {
+            align-self: center;
+            vertical-align: middle;
+        }
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 10px;
+        }
+    }
+}
