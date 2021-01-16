@@ -68,7 +68,7 @@ body {
   color: #fff;
   text-align: left;
   background-color: #fff;
-  background: url(../../../source/images/body-bg.jpg) no-repeat;
+  background: url(../images/body-bg.jpg) no-repeat;
   background-size: cover;
   min-height: 100%;
   display: -webkit-box;
