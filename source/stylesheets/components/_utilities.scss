@@ -1,0 +1,12 @@
+.f-size-24 {
+    font-size: 24px;
+}
+
+
+.card-text_hidden {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+}
