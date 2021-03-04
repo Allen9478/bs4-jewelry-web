@@ -43,6 +43,8 @@ $yellow:  #ffc107 !default;
 $green:   #135022 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+// 新增主色調
+$jewelryweb: #0c4f3a !default;
 
 $colors: () !default;
 $colors: map-merge(
@@ -66,7 +68,7 @@ $colors: map-merge(
 
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:     $jewelryweb !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -1140,3 +1142,14 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+
+// 新增變數
+
+$layout-bg : rgba(92,124,110,0.35);
+$index-item-bg : rgba(0, 0, 0, 0.829);
+$login-form-border : rgba(92, 124, 110, 0.35);
+$cart-image-bg : rgba(0, 0, 0, 0.541);
+$check-wrap-bg : rgb(236, 230, 230);
+$unilities-last-bg : rgba(0, 0, 0, 0.375);

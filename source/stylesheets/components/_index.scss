@@ -3,17 +3,19 @@
       display: flex;
       align-items: flex-end;
       justify-content: center;    
-      height: 300px;
+      width: 180px;
+      height: 180px;
       text-align: center;
       position: relative;
-      padding:  40px;
+      padding:  20px;
+      margin: 0 auto;
       span {
          font-size: 20px;
          letter-spacing: 10px;
          color: #fff;
          font-weight: bolder;      
          transition: all .5s;
-         margin-top: 20px;       
+         margin-top: 20px;    
       }
       .index-item-bg {
          z-index: -3;
@@ -22,7 +24,7 @@
          left: -10px;
          right: -10px;
          bottom: -10px;
-         background-color: rgba(0, 0, 0, 0.829);
+         background-color: $index-item-bg;
          overflow: hidden;
       }
       .item-bg-cover {
@@ -38,19 +40,15 @@
          filter: grayscale(1);
          transition: filter .5s;
       }
-      &:hover {
-        
+      &:hover {    
          text-decoration: none;
-         .index-item-bg {
-            background-color:#000;
-         }
          .item-bg-cover {
             filter: grayscale(0);
          }
       }
    @include media-breakpoint-down(sm) {
-      height: 200px;
-      padding: 20px;
+      width: 250px;
+      height: 250px;
       margin: 20px auto 50px auto;
    }
 }

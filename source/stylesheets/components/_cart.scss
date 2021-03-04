@@ -3,7 +3,7 @@
     .cart-image {
         height: 100px;
         min-width:150px;
-        background-color: rgba(0, 0, 0, 0.541);
+        background-color: $cart-image-bg;
         background-size: cover;
     }
     .cart-text {

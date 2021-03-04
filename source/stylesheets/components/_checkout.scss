@@ -1,6 +1,6 @@
  .checkout-wrap {
-     color: black;
-     background-color: rgb(236, 230, 230);
+     color: $black;
+     background-color: $check-wrap-bg;
  }
  .progressbar {
         display: flex;
@@ -12,13 +12,13 @@
             right: 0;
             top: 50%;
             height: 1px;
-            background-color: #000;
+            background-color: $black;
         }
         .progressbar-circle {
             width: 20px;
             height: 20px;
-            border: 1px solid black;
-            background-color: rgb(236, 230, 230);
+            border: 1px solid $black;
+            background-color: $check-wrap-bg;
             border-radius: 50%;
             z-index: 1;
             display: flex;
@@ -41,7 +41,7 @@
     .checkout-image {
         height: 100px;
         min-width:120px;
-        background-color: rgba(255, 255, 255, 0.568);
+        background-color: $white;
         background-size: cover;
         background-position: center center;
     }

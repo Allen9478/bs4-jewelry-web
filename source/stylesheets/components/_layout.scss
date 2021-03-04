@@ -1,7 +1,11 @@
-$layout-bg : rgba(92,124,110,0.35);
 .layout-bg {
     background: $layout-bg;
     
+}
+.layout-logo {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
 }
 .ft-wrap {
     margin: 0 auto;

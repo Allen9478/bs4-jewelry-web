@@ -1,14 +1,14 @@
 .login-form {
-    border: 3px solid rgba(92, 124, 110, 0.35);
+    border: 3px solid $login-form-border;
     margin-top: 3rem;
     padding: 20px;
     min-height: 100%;
-    box-shadow: 4px 4px#000;
+    box-shadow: 4px 4px $black;
     .login-body {
         padding: 20px;
     }
     .login-absoulute {
-        color: white;
+        color: $white;
         font-size: 18px;
         padding: 10px;
     }

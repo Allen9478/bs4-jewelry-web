@@ -2,7 +2,7 @@
     font-size: 24px;
 }
 .bg-black {
-    background: #000;
+    background: $black;
 }
 .card-text_hidden {
         overflow: hidden;
@@ -14,7 +14,7 @@
 .item-card {
     display: flex;
     flex-direction: column;
-    background: white;
+    background: $white;
     margin-bottom: 5rem;
     @include media-breakpoint-down(sm) {
         width: 70%;
@@ -50,7 +50,7 @@
     .page-item {
         padding: 15px;
         :hover {
-            background: #000;
+            background: $black;
             border-radius: 50%;
         }
         .page-body {
@@ -61,7 +61,7 @@
     }
 }
 .utilities-cart-last {
-    background: rgba(0, 0, 0, 0.375);
+    background: $unilities-last-bg;
     padding: 8px;
     h2 {
         padding: 15px;
